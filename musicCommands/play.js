@@ -21,7 +21,7 @@ const { InteractionCollector } = require('discord.js');
 
 let isPaused = false;
 const youtubeSearchOptions = {
-  maxResults: 1,
+  maxResults: 10,
   key: youtubeAPIKey,
 };
 
