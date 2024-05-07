@@ -4,12 +4,12 @@ module.exports = {
     name: 'owner',
     description: 'Bot owner info',
     execute(message, args) {
-        const youtubeLink = 'https://discord.gg/FUEHs7RCqz';
-        const InstagramLink = 'https://discord.gg/FUEHs7RCqz';
+        const InstagramLink1 = 'https://www.instagram.com/_tuiladuyanh/';
+        const InstagramLink2 = 'https://www.instagram.com/cuccu02/';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself Shiva aka RTX. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [RTX GAMING](${youtubeLink})\n 💙 [Atstreak](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n olaf!\n ❤️ [cuccu02](${InstagramLink2})\n 💙 [Hate](${InstagramLink1})`)
             .setTimestamp();
 
 
